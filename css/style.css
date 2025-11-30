@@ -3681,7 +3681,7 @@ h1.heading {
 /*-------------------------BTN bottom-fixed-clientes----------------------------------------*/
 .btn-bottom-fixed {
 	position: fixed;
-	bottom: 0px;
+	bottom: 20px;
 	
 	left: 0px;
 	z-index: 9999;
@@ -3690,9 +3690,9 @@ h1.heading {
 .btn-bottom-fixed a {
 	background: var(--darkblue);
 	color: #FFF;
-	padding: 6px 2px 0px 2px;
+	padding: 0px 2px 0px 2px;
 	width: 60px !important;
-	border-radius: 0% 100% 0% 0%;
+	border-radius: 0% 100% 100% 0%;
 	border: none;
 	display: block;
 	font-size: 0.8rem;
