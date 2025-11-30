@@ -3691,14 +3691,21 @@ h1.heading {
 	background: var(--darkblue);
 	color: #FFF;
 	padding: 6px 2px 0px 2px;
-	width: 60px;
+	width: 60px !important;
 	border-radius: 0% 100% 0% 0%;
+	border: none;
 	display: block;
-	font-size: 12px;
+	font-size: 0.8rem;
 	font-weight: 600;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+.btn-bottom-fixed a:hover {
+	border:none;
+	
+	color: #FFF;
+	text-decoration: none;
 }
